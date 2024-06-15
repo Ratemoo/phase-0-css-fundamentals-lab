@@ -3,3 +3,65 @@ body {
   height: 100%;
   margin: 0;
 }
+header {
+  text-align: center; /* Center-align text within the header */
+}
+
+img {
+  display: block;
+  margin: 0 auto; /* Center the image horizontally */
+}
+
+### Navigation Links Styling
+
+```css
+.navbar a {
+  padding: 10px;
+  background-color: grey; /* Chosen grey background color */
+  display: inline-block; /* Ensure padding works correctly */
+}
+
+### Image Caption Font Size and Alignment
+
+```css
+.caption {
+  font-size: 14px; /* Adjusted font size for the caption */
+  text-align: center; /* Center-align the caption text */
+}
+
+### Text Block Centering and Width
+
+```css
+#featured-property {
+  width: 800px; /* Set a fixed width for the text block */
+  margin: 20px auto; /* Center the text block and add vertical space */
+  text-align: center; /* Center-align text within the block */
+}
+
+#featured-property p {
+  margin-bottom: 20px; /* Vertical spacing between paragraphs */
+}
+
+### Details Section Horizontal Layout
+
+```css
+#details {
+  overflow: hidden; /* Clear floats */
+}
+
+#details div {
+  float: left; /* Float each detail div to the left */
+  width: 25%; /* Each div occupies 25% of the container width */
+}
+
+### Bottom Divs Styling
+
+```css
+.bottom-div {
+  width: 25%; /* Each div occupies 25% of the container width */
+  text-align: center; /* Center-align text within the div */
+  background-color: #f0f0f0; /* Background color for all bottom divs */
+  display: inline-block; /* Ensure they stay on the same line */
+  margin-bottom: 20px; /* Vertical space below each div */
+}
+
